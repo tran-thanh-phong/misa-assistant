@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "MISA Session Exporter",
+  "version": "1.0.0",
+  "description": "Export the MISA Money Keeper session (moneykeeper_userInfo) for use in Playwright automation.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["https://moneykeeperapp.misa.vn/*"]
+}

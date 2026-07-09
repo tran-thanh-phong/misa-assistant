@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MISA Session Exporter</title>
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    width: 320px;
+    padding: 12px;
+    color: #1a1a1a;
+  }
+  h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+  }
+  #status {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  #status.error {
+    color: #b00020;
+  }
+  #status.ok {
+    color: #1a7f37;
+  }
+  #preview {
+    font-size: 11px;
+    background: #f5f5f5;
+    padding: 6px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  #note {
+    font-size: 11px;
+    color: #666;
+    margin-top: 8px;
+  }
+</style>
+</head>
+<body>
+  <h3>MISA Session Exporter</h3>
+  <div id="status">Checking active tab...</div>
+  <div id="actions" hidden>
+    <pre id="preview"></pre>
+    <button id="copyBtn">Copy to Clipboard</button>
+    <button id="saveBtn">Save to Downloads</button>
+  </div>
+  <div id="note">Contains a live access token — don't commit the exported file, delete it after import.</div>
+  <script src="popup.js"></script>
+</body>
+</html>

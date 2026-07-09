@@ -1,0 +1,6 @@
+# Known Edge Cases — Techcombank (local only — never commit)
+
+Copy to `known-edge-cases-tcb.md` (gitignored) and fill in confirmed patterns for `techcombank-extraction.md`. Check this table before flagging a row as `NEEDS REVIEW`. Add a row here only once a pattern is confirmed — by the user directly, or by an identical case recurring and being confirmed — never speculatively.
+
+| Pattern | Resolution |
+|---|---|

@@ -1,0 +1,22 @@
+# Financial screenshot intake (personal/sensitive data)
+data/
+
+# Playwright automation cache
+.playwright-mcp/
+
+# Working plan docs (process artifacts, not part of the reusable product)
+plans/
+
+# Local MCP config (contains real GCP project id + credentials path) — see .mcp.json.example
+.mcp.json
+*.session.json
+misa-session.json
+docs/superpowers/
+
+# Real PII behind skill-doc placeholders — see pii-mapping.md.sample
+.claude/agent-memory/app-data-extractor/pii-mapping.md
+
+# Confirmed known-edge-case patterns (real financial detail) — see *.sample counterparts
+.claude/agent-memory/app-data-extractor/known-edge-cases-momo.md
+.claude/agent-memory/app-data-extractor/known-edge-cases-vcb.md
+.claude/agent-memory/app-data-extractor/known-edge-cases-tcb.md

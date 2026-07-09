@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mcp-gsheets": {
+      "command": "npx",
+      "args": ["-y", "mcp-gsheets@1.8.1"],
+      "env": {
+        "GOOGLE_PROJECT_ID": "your-gcp-project-id",
+        "GOOGLE_APPLICATION_CREDENTIALS": "./path/to/google-service-account.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# PII Mapping (local only — never commit)
+
+Copy to `pii-mapping.md` (gitignored) and fill in real values behind the placeholders used in `.claude/skills/app-data-extractor/references/techcombank-extraction.md` and `vcb-extraction.md`.
+
+| Placeholder | Real value | Source file |
+|---|---|---|
+| `<ACCT-TCB23>` |  | techcombank-extraction.md |
+| `<ACCT-TCB39>` |  | techcombank-extraction.md |
+| `<ACCT-TCB41>` |  | techcombank-extraction.md |
+| `<ACCT-TCB90>` |  | techcombank-extraction.md |
+| `<ACCT-TCB25>` |  | techcombank-extraction.md |
+| `<PHONE>` |  | techcombank-extraction.md, vcb-extraction.md |
+| `<PERSON_1>` (account owner) |  | techcombank-extraction.md, vcb-extraction.md |
+| `<PERSON_2>` (friend) |  | vcb-extraction.md |
+| `<ACCT>` (friend account) |  | vcb-extraction.md |
+| `<MONEY_AMOUNT_01>` (2026-04-17, `XXX`) |  | vcb-extraction.md |
+| `<MONEY_AMOUNT_02>` (2026-06-14, `YYY`) |  | vcb-extraction.md |
+| `<MONEY_AMOUNT_03>` (2026-06-08 and 2026-07-07, `ZZZ`) |  | vcb-extraction.md |
+| `<MONEY_AMOUNT_04>` (2026-05-07 sss) |  | vcb-extraction.md |
+| `<MONEY_AMOUNT_05>` (2026-06-06 and 2026-07-06 sss) |  | vcb-extraction.md |
+| `<SHEET_ID>` (Google Sheet spreadsheet ID) |  | SKILL.md, sheet-schema.md |
